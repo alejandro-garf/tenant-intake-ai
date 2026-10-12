@@ -1,0 +1,65 @@
+{
+  "name": "tenant-portal",
+  "version": "1.0.0",
+  "description": "CTCAC / LIHTC tenant screening portal. iOS-styled Next.js app with a deterministic rules engine.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "db:seed": "tsx src/db/seed.ts",
+    "provision-reviewer": "tsx src/db/provision-reviewer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-garf/tenant-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alejandro-garf/tenant-portal/issues"
+  },
+  "homepage": "https://github.com/alejandro-garf/tenant-portal#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1094.0",
+    "@aws-sdk/s3-request-presigner": "^3.1094.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.42.2",
+    "next": "^16.2.10",
+    "otpauth": "^9.5.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.3",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "resend": "^6.18.0",
+    "sharp": "^0.35.3",
+    "tailwind-merge": "^3.6.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.1.1",
+    "@types/pg": "^8.20.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.4",
+    "dotenv": "^17.4.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.10",
+    "pg": "^8.22.0",
+    "postcss": "^8.5.20",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
+  }
+}

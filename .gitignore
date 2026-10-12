@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Generated TIC PDFs contain PII (names, DOBs, SSN digits, income) - never commit
+# Exception: keep the blank template
+assets/*
+!assets/tic-blank.pdf

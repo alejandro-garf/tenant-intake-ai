@@ -1,0 +1,1520 @@
+[
+  {
+    "name": "Effective Date",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[463.6, 762.7, 105.0, 11.0]"
+  },
+  {
+    "name": "Initial Certification",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[43.5, 750.1, 8.3, 8.7]"
+  },
+  {
+    "name": "Recertification",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[163.5, 750.1, 8.3, 8.5]"
+  },
+  {
+    "name": "Other",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[264.2, 750.1, 8.0, 8.7]"
+  },
+  {
+    "name": "TENANT INCOME CERTIFICATION",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[307.2, 749.2, 71.9, 11.0]"
+  },
+  {
+    "name": "MoveIn Date",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[461.9, 751.2, 110.2, 11.0]"
+  },
+  {
+    "name": "Property Name",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[108.5, 716.9, 143.6, 11.0]"
+  },
+  {
+    "name": "County",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.8, 717.2, 82.4, 10.7]"
+  },
+  {
+    "name": "TCAC",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[421.8, 716.9, 46.4, 11.0]"
+  },
+  {
+    "name": "BIN",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[501.1, 716.9, 75.1, 11.0]"
+  },
+  {
+    "name": "Address",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[77.9, 704.3, 300.7, 11.0]"
+  },
+  {
+    "name": "60%",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[340.0, 703.0, 5.8, 6.1]"
+  },
+  {
+    "name": "50%",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[369.1, 703.1, 5.8, 6.1]"
+  },
+  {
+    "name": "If applicable CDLAC",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[490.6, 704.3, 85.7, 11.0]"
+  },
+  {
+    "name": "Unit Number",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[101.0, 691.4, 48.6, 11.0]"
+  },
+  {
+    "name": "fill_20",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.8, 694.9, 95.3, 35.6]"
+  },
+  {
+    "name": "Bedrooms",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[217.1, 691.4, 37.8, 11.0]"
+  },
+  {
+    "name": "Square Footage",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[332.2, 691.8, 60.5, 11.0]"
+  },
+  {
+    "name": "Current Federal LIHTC Income Limit x 140%",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[481.6, 695.3, 102.4, 16.2]"
+  },
+  {
+    "name": "80%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[339.9, 672.2, 5.8, 6.1]"
+  },
+  {
+    "name": "70%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[369.0, 671.9, 5.8, 6.1]"
+  },
+  {
+    "name": "60%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[398.0, 672.2, 5.8, 6.1]"
+  },
+  {
+    "name": "50%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[427.2, 672.1, 5.8, 6.1]"
+  },
+  {
+    "name": "Vacant",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[42.9, 661.9, 5.8, 6.1]"
+  },
+  {
+    "name": "40%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[340.0, 660.3, 5.8, 6.1]"
+  },
+  {
+    "name": "30%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[369.1, 660.3, 5.8, 6.1]"
+  },
+  {
+    "name": "20%1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[398.0, 660.4, 5.8, 6.1]"
+  },
+  {
+    "name": "YES",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[502.8, 663.3, 5.8, 6.1]"
+  },
+  {
+    "name": "NO",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[533.9, 663.2, 5.8, 6.1]"
+  },
+  {
+    "name": "undefined_20",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.5, 647.1, 98.2, 12.1]"
+  },
+  {
+    "name": "Last Name1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 622.1, 93.1, 15.0]"
+  },
+  {
+    "name": "First Name1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 622.1, 79.7, 15.0]"
+  },
+  {
+    "name": "Middle Initial1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 622.1, 39.2, 15.0]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYYHEAD",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 622.1, 75.1, 15.0]"
+  },
+  {
+    "name": "FT",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[464.8, 626.6, 6.7, 6.9]"
+  },
+  {
+    "name": "PT",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.5, 626.3, 6.7, 6.9]"
+  },
+  {
+    "name": "NA",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.7, 626.5, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security HEAD",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 622.1, 75.0, 15.0]"
+  },
+  {
+    "name": "undefined_3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 613.3, 98.2, 12.6]"
+  },
+  {
+    "name": "Last Name1_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 606.0, 106.7, 15.0]"
+  },
+  {
+    "name": "Last Name2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 606.1, 93.1, 15.0]"
+  },
+  {
+    "name": "First Name2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 606.1, 79.7, 15.0]"
+  },
+  {
+    "name": "First Name1_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 606.0, 115.7, 15.0]"
+  },
+  {
+    "name": "Middle Initial2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 606.1, 39.2, 15.0]"
+  },
+  {
+    "name": "HEAD2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 606.1, 88.8, 15.0]"
+  },
+  {
+    "name": "Middle Initial1_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 606.0, 43.8, 15.0]"
+  },
+  {
+    "name": "Other2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[340.0, 610.3, 5.8, 6.1]"
+  },
+  {
+    "name": "Race1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 606.0, 79.7, 15.0]"
+  },
+  {
+    "name": "Other_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[371.9, 608.5, 27.0, 9.2]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 606.1, 75.1, 15.0]"
+  },
+  {
+    "name": "Ethnicity1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 606.0, 88.7, 15.0]"
+  },
+  {
+    "name": "FT1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.1, 609.8, 6.7, 6.9]"
+  },
+  {
+    "name": "PT1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.4, 609.8, 6.7, 6.9]"
+  },
+  {
+    "name": "NA1",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.8, 609.8, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 606.1, 75.0, 15.0]"
+  },
+  {
+    "name": "Disabled1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 606.0, 70.4, 15.0]"
+  },
+  {
+    "name": "1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 599.6, 98.2, 12.6]"
+  },
+  {
+    "name": "Last Name2_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 590.0, 106.7, 15.0]"
+  },
+  {
+    "name": "First Name2_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 590.0, 115.7, 15.0]"
+  },
+  {
+    "name": "Middle Initial2_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 590.0, 43.8, 15.0]"
+  },
+  {
+    "name": "Race2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 590.0, 79.7, 15.0]"
+  },
+  {
+    "name": "Ethnicity2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 590.0, 88.7, 15.0]"
+  },
+  {
+    "name": "FT2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.0, 594.3, 6.7, 6.9]"
+  },
+  {
+    "name": "Household Size at Move-in",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[469.8, 595.1, 115.0, 22.7]"
+  },
+  {
+    "name": "Last Name3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 590.0, 93.1, 15.1]"
+  },
+  {
+    "name": "First Name3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 590.0, 79.7, 15.1]"
+  },
+  {
+    "name": "Middle Initial3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 590.0, 39.2, 15.1]"
+  },
+  {
+    "name": "HEAD3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 590.0, 88.8, 15.1]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 590.0, 75.1, 15.1]"
+  },
+  {
+    "name": "PT2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.5, 594.4, 6.7, 6.9]"
+  },
+  {
+    "name": "NA2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.9, 594.4, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 590.0, 75.0, 15.1]"
+  },
+  {
+    "name": "Disabled2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 590.0, 70.4, 15.0]"
+  },
+  {
+    "name": "Last Name3_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 574.0, 106.7, 15.1]"
+  },
+  {
+    "name": "Last Name4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 574.1, 93.1, 15.0]"
+  },
+  {
+    "name": "First Name4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 574.1, 79.7, 15.0]"
+  },
+  {
+    "name": "First Name3_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 574.0, 115.7, 15.1]"
+  },
+  {
+    "name": "Middle Initial4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 574.1, 39.2, 15.0]"
+  },
+  {
+    "name": "HEAD4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 574.1, 88.8, 15.0]"
+  },
+  {
+    "name": "Middle Initial3_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 574.0, 43.8, 15.1]"
+  },
+  {
+    "name": "Race3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 574.0, 79.7, 15.1]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 574.1, 75.1, 15.0]"
+  },
+  {
+    "name": "Ethnicity3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 574.0, 88.7, 15.1]"
+  },
+  {
+    "name": "FT3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.2, 578.0, 6.7, 6.9]"
+  },
+  {
+    "name": "PT3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.4, 578.0, 6.7, 6.9]"
+  },
+  {
+    "name": "NA3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.7, 578.1, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 574.1, 75.0, 15.0]"
+  },
+  {
+    "name": "Disabled3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 574.0, 70.4, 15.1]"
+  },
+  {
+    "name": "Last Name4_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 558.0, 106.7, 15.0]"
+  },
+  {
+    "name": "Last Name5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 558.1, 93.1, 15.0]"
+  },
+  {
+    "name": "First Name5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 558.1, 79.7, 15.0]"
+  },
+  {
+    "name": "First Name4_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 558.0, 115.7, 15.0]"
+  },
+  {
+    "name": "undefined_4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 554.0, 98.2, 10.0]"
+  },
+  {
+    "name": "Middle Initial5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 558.1, 39.2, 15.0]"
+  },
+  {
+    "name": "HEAD5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 558.1, 88.8, 15.0]"
+  },
+  {
+    "name": "Middle Initial4_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 558.0, 43.8, 15.0]"
+  },
+  {
+    "name": "Race4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 558.0, 79.7, 15.0]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 558.1, 75.1, 15.0]"
+  },
+  {
+    "name": "Ethnicity4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 558.0, 88.7, 15.0]"
+  },
+  {
+    "name": "FT4",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.0, 562.7, 6.7, 6.9]"
+  },
+  {
+    "name": "PT4",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.6, 562.6, 6.7, 6.9]"
+  },
+  {
+    "name": "NA4",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.9, 562.5, 6.7, 6.9]"
+  },
+  {
+    "name": "undefined_5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[458.4, 557.2, 53.9, 8.6]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 558.1, 75.0, 15.0]"
+  },
+  {
+    "name": "Disabled4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 558.0, 70.4, 15.0]"
+  },
+  {
+    "name": "Source",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[553.2, 557.2, 27.0, 8.6]"
+  },
+  {
+    "name": "Last Name5_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 542.0, 106.7, 15.0]"
+  },
+  {
+    "name": "Last Name6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 542.0, 93.1, 15.1]"
+  },
+  {
+    "name": "First Name6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 542.0, 79.7, 15.1]"
+  },
+  {
+    "name": "First Name5_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 542.0, 115.7, 15.0]"
+  },
+  {
+    "name": "undefined_6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 542.9, 98.2, 10.0]"
+  },
+  {
+    "name": "Middle Initial6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 542.0, 39.2, 15.1]"
+  },
+  {
+    "name": "HEAD6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 542.0, 88.8, 15.1]"
+  },
+  {
+    "name": "Middle Initial5_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 542.0, 43.8, 15.0]"
+  },
+  {
+    "name": "Race5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 542.0, 79.7, 15.0]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 542.0, 75.1, 15.1]"
+  },
+  {
+    "name": "Ethnicity5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 542.0, 88.7, 15.0]"
+  },
+  {
+    "name": "undefined_7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[459.0, 544.4, 53.9, 10.0]"
+  },
+  {
+    "name": "FT5",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.2, 546.6, 6.7, 6.9]"
+  },
+  {
+    "name": "PT5",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.4, 546.8, 6.7, 6.9]"
+  },
+  {
+    "name": "NA5",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.8, 546.7, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 542.0, 75.0, 15.1]"
+  },
+  {
+    "name": "Disabled5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 542.0, 70.4, 15.0]"
+  },
+  {
+    "name": "undefined_8",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 532.1, 98.2, 10.0]"
+  },
+  {
+    "name": "Total Monthly Rent Assistance",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[459.5, 534.0, 53.9, 10.0]"
+  },
+  {
+    "name": "Last Name6_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 526.0, 106.7, 15.1]"
+  },
+  {
+    "name": "Last Name7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 526.1, 93.1, 15.0]"
+  },
+  {
+    "name": "First Name7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[168.5, 526.1, 79.7, 15.0]"
+  },
+  {
+    "name": "First Name6_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 526.0, 115.7, 15.1]"
+  },
+  {
+    "name": "Middle Initial7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[249.5, 526.1, 39.2, 15.0]"
+  },
+  {
+    "name": "HEAD7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[290.0, 526.1, 88.8, 15.0]"
+  },
+  {
+    "name": "Middle Initial6_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 526.0, 43.8, 15.1]"
+  },
+  {
+    "name": "Race6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 526.0, 79.7, 15.1]"
+  },
+  {
+    "name": "Date of Birth MMDDYYYY7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[380.2, 526.1, 75.1, 15.0]"
+  },
+  {
+    "name": "Ethnicity6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 526.0, 88.7, 15.1]"
+  },
+  {
+    "name": "FT6",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[465.1, 530.1, 6.7, 6.9]"
+  },
+  {
+    "name": "PT6",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[482.2, 530.1, 6.7, 6.9]"
+  },
+  {
+    "name": "NA6",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[501.8, 530.0, 6.7, 6.9]"
+  },
+  {
+    "name": "Last 4 digits of Social Security 7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[510.6, 526.1, 75.0, 15.0]"
+  },
+  {
+    "name": "Disabled6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 526.0, 70.4, 15.1]"
+  },
+  {
+    "name": "Last Name7_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[74.0, 510.0, 106.7, 15.0]"
+  },
+  {
+    "name": "First Name7_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[182.0, 510.0, 115.7, 15.0]"
+  },
+  {
+    "name": "Middle Initial7_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[299.0, 510.0, 43.8, 15.0]"
+  },
+  {
+    "name": "Race7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[344.2, 510.0, 79.7, 15.0]"
+  },
+  {
+    "name": "Ethnicity7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[425.2, 510.0, 88.7, 15.0]"
+  },
+  {
+    "name": "Disabled7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[515.2, 510.0, 70.4, 15.0]"
+  },
+  {
+    "name": "HH Mbr Row1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[37.2, 473.5, 44.6, 13.2]"
+  },
+  {
+    "name": "A Employment or WagesRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[82.9, 473.5, 127.0, 13.2]"
+  },
+  {
+    "name": "B Soc SecurityPensionsRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[211.0, 473.5, 127.4, 13.2]"
+  },
+  {
+    "name": "fill_21",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.8, 476.5, 95.3, 40.3]"
+  },
+  {
+    "name": "C Public AssistanceRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[339.5, 473.5, 106.9, 13.2]"
+  },
+  {
+    "name": "D Other IncomeRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[447.5, 473.5, 138.2, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[37.2, 459.4, 44.6, 13.3]"
+  },
+  {
+    "name": "A Employment or WagesRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[82.9, 459.4, 127.0, 13.3]"
+  },
+  {
+    "name": "B Soc SecurityPensionsRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[211.0, 459.4, 127.4, 13.3]"
+  },
+  {
+    "name": "C Public AssistanceRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[339.5, 459.4, 106.9, 13.3]"
+  },
+  {
+    "name": "D Other IncomeRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[447.5, 459.4, 138.2, 13.3]"
+  },
+  {
+    "name": "undefined_9",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 452.5, 98.2, 13.4]"
+  },
+  {
+    "name": "HH Mbr Row3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[37.2, 445.3, 44.6, 13.2]"
+  },
+  {
+    "name": "A Employment or WagesRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[82.9, 445.3, 127.0, 13.2]"
+  },
+  {
+    "name": "B Soc SecurityPensionsRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[211.0, 445.3, 127.4, 13.2]"
+  },
+  {
+    "name": "C Public AssistanceRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[339.5, 445.3, 106.9, 13.2]"
+  },
+  {
+    "name": "D Other IncomeRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[447.5, 445.3, 138.2, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[37.2, 431.3, 44.6, 13.2]"
+  },
+  {
+    "name": "A Employment or WagesRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[82.9, 431.3, 127.0, 13.2]"
+  },
+  {
+    "name": "B Soc SecurityPensionsRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[211.0, 431.3, 127.4, 13.2]"
+  },
+  {
+    "name": "C Public AssistanceRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[339.5, 431.3, 106.9, 13.2]"
+  },
+  {
+    "name": "D Other IncomeRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[447.5, 431.3, 138.2, 13.2]"
+  },
+  {
+    "name": "undefined_10",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[213.7, 425.9, 98.2, 13.4]"
+  },
+  {
+    "name": "HH Mbr Row5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[37.2, 417.2, 44.6, 13.2]"
+  },
+  {
+    "name": "A Employment or WagesRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[82.9, 417.2, 127.0, 13.2]"
+  },
+  {
+    "name": "B Soc SecurityPensionsRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[211.0, 417.2, 127.4, 13.2]"
+  },
+  {
+    "name": "C Public AssistanceRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[339.5, 417.2, 106.9, 13.2]"
+  },
+  {
+    "name": "D Other IncomeRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[447.5, 417.2, 138.2, 13.2]"
+  },
+  {
+    "name": "60%3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[207.9, 411.6, 5.8, 6.1]"
+  },
+  {
+    "name": "50%3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[237.3, 411.5, 5.8, 6.1]"
+  },
+  {
+    "name": "fill_122",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[93.1, 401.3, 116.8, 13.1]"
+  },
+  {
+    "name": "fill_123",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[221.2, 401.3, 117.2, 13.1]"
+  },
+  {
+    "name": "fill_124",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[349.7, 401.3, 96.7, 13.1]"
+  },
+  {
+    "name": "fill_125",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[457.7, 401.3, 128.0, 13.1]"
+  },
+  {
+    "name": "80#2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[208.2, 394.5, 5.8, 6.1]"
+  },
+  {
+    "name": "70%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[237.2, 394.5, 5.8, 6.1]"
+  },
+  {
+    "name": "60%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[268.3, 394.6, 5.8, 6.1]"
+  },
+  {
+    "name": "50%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[208.1, 384.0, 5.8, 6.1]"
+  },
+  {
+    "name": "40%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[239.4, 383.9, 5.8, 6.1]"
+  },
+  {
+    "name": "30%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[268.4, 383.8, 5.8, 6.1]"
+  },
+  {
+    "name": "fill_126",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[457.2, 384.0, 125.8, 14.3]"
+  },
+  {
+    "name": "20%2",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[208.0, 373.7, 5.8, 6.1]"
+  },
+  {
+    "name": "60%4",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[208.0, 355.4, 5.8, 6.1]"
+  },
+  {
+    "name": "50%4",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[246.5, 355.4, 5.8, 6.1]"
+  },
+  {
+    "name": "HH Mbr Row1_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[36.7, 330.4, 40.3, 13.2]"
+  },
+  {
+    "name": "F Type of AssetRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[78.1, 330.4, 180.4, 13.2]"
+  },
+  {
+    "name": "Other3",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[208.1, 334.7, 5.8, 6.1]"
+  },
+  {
+    "name": "Other_3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[242.4, 333.5, 36.1, 10.0]"
+  },
+  {
+    "name": "G CIRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[259.6, 330.4, 34.9, 13.2]"
+  },
+  {
+    "name": "H Cash Value of AssetRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.6, 330.4, 151.8, 13.2]"
+  },
+  {
+    "name": "I Annual Income from AssetRow1",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[448.9, 330.4, 136.6, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row2_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[36.7, 316.3, 40.3, 13.2]"
+  },
+  {
+    "name": "F Type of AssetRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[78.1, 316.3, 180.4, 13.2]"
+  },
+  {
+    "name": "G CIRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[259.6, 316.3, 34.9, 13.2]"
+  },
+  {
+    "name": "H Cash Value of AssetRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.6, 316.3, 151.8, 13.2]"
+  },
+  {
+    "name": "I Annual Income from AssetRow2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[448.9, 316.3, 136.6, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row3_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[36.7, 302.3, 40.3, 13.2]"
+  },
+  {
+    "name": "F Type of AssetRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[78.1, 302.3, 180.4, 13.2]"
+  },
+  {
+    "name": "G CIRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[259.6, 302.3, 34.9, 13.2]"
+  },
+  {
+    "name": "H Cash Value of AssetRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.6, 302.3, 151.8, 13.2]"
+  },
+  {
+    "name": "I Annual Income from AssetRow3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[448.9, 302.3, 136.6, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row4_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[36.7, 288.2, 40.3, 13.2]"
+  },
+  {
+    "name": "F Type of AssetRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[78.1, 288.2, 180.4, 13.2]"
+  },
+  {
+    "name": "G CIRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[259.6, 288.2, 34.9, 13.2]"
+  },
+  {
+    "name": "H Cash Value of AssetRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.6, 288.2, 151.8, 13.2]"
+  },
+  {
+    "name": "I Annual Income from AssetRow4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[448.9, 288.2, 136.6, 13.2]"
+  },
+  {
+    "name": "HH Mbr Row5_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[36.7, 274.2, 40.3, 13.2]"
+  },
+  {
+    "name": "F Type of AssetRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[78.1, 274.2, 180.4, 13.2]"
+  },
+  {
+    "name": "undefined_11",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[78.9, 276.9, 5.7, 5.9]"
+  },
+  {
+    "name": "undefined_12",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[125.8, 276.9, 6.0, 5.8]"
+  },
+  {
+    "name": "G CIRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[259.6, 274.2, 34.9, 13.2]"
+  },
+  {
+    "name": "H Cash Value of AssetRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[295.6, 274.2, 151.8, 13.2]"
+  },
+  {
+    "name": "I Annual Income from AssetRow5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[448.9, 274.2, 136.6, 13.2]"
+  },
+  {
+    "name": "fill_127",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[305.3, 261.2, 142.1, 12.1]"
+  },
+  {
+    "name": "fill_128",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[458.4, 261.2, 127.1, 12.1]"
+  },
+  {
+    "name": "Enter 15",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[323.4, 253.2, 121.8, 19.9]"
+  },
+  {
+    "name": "undefined",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[160.9, 241.3, 58.4, 11.0]"
+  },
+  {
+    "name": "fill_129",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[457.7, 236.2, 127.4, 23.4]"
+  },
+  {
+    "name": "fill_130",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[457.3, 220.7, 125.4, 12.1]"
+  },
+  {
+    "name": "9%",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[43.8, 194.1, 5.8, 6.1]"
+  },
+  {
+    "name": "HOME",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.4, 194.0, 5.8, 6.1]"
+  },
+  {
+    "name": "4%",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[44.0, 182.5, 5.8, 6.1]"
+  },
+  {
+    "name": "CDBG",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.5, 182.6, 5.8, 6.1]"
+  },
+  {
+    "name": "fill_132",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[460.2, 184.4, 124.3, 25.6]"
+  },
+  {
+    "name": "Tax-Exempt Bond",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[43.9, 171.0, 5.8, 6.1]"
+  },
+  {
+    "name": "HUD",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.5, 170.8, 5.8, 6.1]"
+  },
+  {
+    "name": "NATIONAL",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.6, 159.5, 5.8, 6.1]"
+  },
+  {
+    "name": "USDA",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.6, 147.8, 5.8, 6.1]"
+  },
+  {
+    "name": "STATE",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[321.5, 136.4, 5.8, 6.1]"
+  },
+  {
+    "name": "Resident/Applicant",
+    "type": "PDFCheckBox",
+    "page": null,
+    "rect": "[35.6, 74.7, 9.3, 9.7]"
+  },
+  {
+    "name": "Signature",
+    "type": "PDFSignature",
+    "page": null,
+    "rect": "[36.0, 76.6, 135.1, 11.0]"
+  },
+  {
+    "name": "Date",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[207.0, 76.6, 72.1, 11.0]"
+  },
+  {
+    "name": "Signature_2",
+    "type": "PDFSignature",
+    "page": null,
+    "rect": "[315.0, 76.6, 144.2, 11.0]"
+  },
+  {
+    "name": "Date_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[495.1, 76.6, 67.7, 11.0]"
+  },
+  {
+    "name": "Signature_3",
+    "type": "PDFSignature",
+    "page": null,
+    "rect": "[36.0, 54.0, 135.1, 11.0]"
+  },
+  {
+    "name": "1_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[90.8, 57.4, 50.0, 17.2]"
+  },
+  {
+    "name": "2_2",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[153.4, 57.4, 49.9, 17.2]"
+  },
+  {
+    "name": "Date_3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[207.0, 54.0, 72.1, 11.0]"
+  },
+  {
+    "name": "3",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[215.8, 57.4, 44.9, 17.2]"
+  },
+  {
+    "name": "4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[273.1, 57.4, 49.9, 17.2]"
+  },
+  {
+    "name": "Signature_4",
+    "type": "PDFSignature",
+    "page": null,
+    "rect": "[315.0, 54.0, 144.2, 11.0]"
+  },
+  {
+    "name": "5",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[335.5, 57.4, 49.9, 17.2]"
+  },
+  {
+    "name": "6",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[397.9, 57.4, 49.9, 17.2]"
+  },
+  {
+    "name": "7",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[461.2, 57.4, 49.9, 17.2]"
+  },
+  {
+    "name": "Date_4",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[495.1, 54.0, 67.7, 11.0]"
+  },
+  {
+    "name": "SIGNATURE OF OWNERREPRESENTATIVE",
+    "type": "PDFSignature",
+    "page": null,
+    "rect": "[36.0, 43.2, 208.1, 10.0]"
+  },
+  {
+    "name": "DATE",
+    "type": "PDFTextField",
+    "page": null,
+    "rect": "[258.1, 43.2, 62.4, 10.0]"
+  }
+]

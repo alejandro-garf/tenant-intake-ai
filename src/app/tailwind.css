@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode (not prefers-color-scheme) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Map Tailwind color tokens to semantic variables using @theme inline */
+@theme inline {
+  /* Font Family */
+  --font-system: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", sans-serif;
+
+  /* iOS System Colors — reference semantic variables from globals.css */
+  --color-system-blue: var(--system-blue);
+  --color-system-green: var(--system-green);
+  --color-system-red: var(--system-red);
+  --color-system-orange: var(--system-orange);
+  --color-system-yellow: var(--system-yellow);
+  --color-system-indigo: var(--system-indigo);
+  --color-system-purple: var(--system-purple);
+  --color-system-pink: var(--system-pink);
+  --color-system-teal: var(--system-teal);
+  --color-system-gray: var(--system-gray);
+
+  /* Labels — reference semantic variables */
+  --color-label: var(--label);
+  --color-secondary-label: var(--secondary-label);
+  --color-tertiary-label: var(--tertiary-label);
+  --color-quaternary-label: var(--quaternary-label);
+
+  /* Fills — reference semantic variables */
+  --color-fill: var(--fill);
+  --color-secondary-fill: var(--secondary-fill);
+  --color-tertiary-fill: var(--tertiary-fill);
+  --color-quaternary-fill: var(--quaternary-fill);
+
+  /* Backgrounds — reference semantic variables */
+  --color-system-background: var(--system-background);
+  --color-secondary-system-background: var(--secondary-system-background);
+  --color-tertiary-system-background: var(--tertiary-system-background);
+  --color-grouped-background: var(--grouped-background);
+  --color-secondary-grouped-background: var(--secondary-grouped-background);
+  --color-tertiary-grouped-background: var(--tertiary-grouped-background);
+
+  /* Separators — reference semantic variables */
+  --color-separator: var(--separator);
+  --color-opaque-separator: var(--opaque-separator);
+
+  /* Border Radius */
+  --radius-ios: 10px;
+  --radius-ios-card: 12px;
+  --radius-pill: 9999px;
+
+  /* Spacing */
+  --spacing-gutter: 16px;
+
+  /* Font Sizes */
+  --font-size-large-title: 34px;
+  --font-size-title-1: 28px;
+  --font-size-title-2: 22px;
+  --font-size-title-3: 20px;
+  --font-size-headline: 17px;
+  --font-size-body: 17px;
+  --font-size-callout: 16px;
+  --font-size-subhead: 15px;
+  --font-size-footnote: 13px;
+  --font-size-caption: 12px;
+
+  /* Line Heights */
+  --line-height-large-title: 41px;
+  --line-height-title-1: 34px;
+  --line-height-title-2: 28px;
+  --line-height-title-3: 25px;
+  --line-height-headline: 22px;
+  --line-height-body: 22px;
+  --line-height-callout: 21px;
+  --line-height-subhead: 20px;
+  --line-height-footnote: 18px;
+  --line-height-caption: 16px;
+
+  /* Letter Spacing (negative tracking for lifted feel) */
+  --letter-spacing-large-title: -0.4px;
+  --letter-spacing-title: -0.3px;
+  --letter-spacing-headline: -0.2px;
+  --letter-spacing-body: 0px;
+}
