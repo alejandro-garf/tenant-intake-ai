@@ -44,6 +44,18 @@ export async function POST(request: NextRequest) {
         to: email,
       });
 
+      // Local development only: when the email provider cannot deliver
+      // (for example, a provider in test mode that only sends to one address),
+      // print the sign-in link to the server terminal so any address can be
+      // used on localhost. Never active in test or production.
+      if (process.env.NODE_ENV === 'development') {
+        console.log(`\n[dev] Magic link for ${email}:\n${magicLinkUrl}\n`);
+        return NextResponse.json({
+          message: 'Magic link sent to your email',
+          devHint: 'Email delivery failed; the sign-in link was printed in the server terminal.',
+        });
+      }
+
       // Return generic error to client
       return NextResponse.json(
         { error: 'Could not send email. Please try again.' },

@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { NavHeader } from "@/components/NavHeader";
 import { Button } from "@/components/Button";
 import { TextField } from "@/components/TextField";
 
-export default function LoginPage() {
+function LoginForm() {
   const searchParams = useSearchParams();
   const error = searchParams.get("error");
 
@@ -124,5 +124,17 @@ export default function LoginPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+/**
+ * useSearchParams() requires a Suspense boundary so Next.js can prerender
+ * this page at build time (it bails out to client rendering inside the boundary).
+ */
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen" />}>
+      <LoginForm />
+    </Suspense>
   );
 }

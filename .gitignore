@@ -9,3 +9,6 @@ node_modules/
 # Exception: keep the blank template
 assets/*
 !assets/tic-blank.pdf
+
+# TypeScript incremental build info
+tsconfig.tsbuildinfo
