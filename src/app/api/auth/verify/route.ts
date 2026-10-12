@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyMagicLink, createSession } from '@/lib/auth';
-import { hasTOTPEnabled } from '@/lib/totp';
 
 export async function GET(request: NextRequest) {
   try {
@@ -18,27 +17,10 @@ export async function GET(request: NextRequest) {
       return NextResponse.redirect(new URL('/login?error=expired-or-invalid', request.url));
     }
 
-    // For applicants: TOTP is always verified (they don't need it)
-    // For reviewers: check if they have TOTP enabled
-    let totpVerified = user.role === 'applicant';
-    let redirectUrl = '/apply';
-
-    if (user.role === 'reviewer') {
-      const totpEnabled = await hasTOTPEnabled(user.id);
-
-      if (totpEnabled) {
-        // Reviewer has TOTP - create unverified session, redirect to TOTP verification
-        totpVerified = false;
-        redirectUrl = '/auth/totp-verify';
-      } else {
-        // Reviewer doesn't have TOTP yet - redirect to enrollment
-        totpVerified = false;
-        redirectUrl = '/auth/totp-enroll';
-      }
-    }
-
-    // Create session
-    const sessionToken = await createSession(user.id, totpVerified);
+    // Sign-in is the magic link alone, for every role.
+    // The session is created fully verified so reviewer routes open directly.
+    const redirectUrl = user.role === 'reviewer' ? '/review' : '/apply';
+    const sessionToken = await createSession(user.id, true);
 
     // Create response with redirect
     const response = NextResponse.redirect(new URL(redirectUrl, request.url));
